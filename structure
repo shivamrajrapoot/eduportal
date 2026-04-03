@@ -1,0 +1,29 @@
+server/
+├── config/
+│   ├── db.js
+│   ├── corsOptions.js
+│   └── passport.js
+├── constants/
+│   └── auth.constants.js
+├── controllers/
+│   ├── authController.js
+│   └── userController.js
+├── middleware/
+│   ├── errorHandler.js
+│   ├── roleGuard.js
+│   └── verifyToken.js
+├── models/
+│   └── User.js
+├── routes/
+│   ├── authRoutes.js
+│   └── userRoutes.js
+├── utils/
+│   ├── apiResponse.js
+│   ├── generateTokens.js
+│   └── setCookie.js
+├── app.js
+├── server.js
+├── .env
+├── .env.example
+├── .gitignore
+└── package.json
